@@ -80,7 +80,7 @@ if submit:
         df["openalex"] = df["id"].apply(lambda i: f"https://openalex.org/{i}")
         st.dataframe(
             df[["title", "year", "citation_count", "score", "openalex"]],
-            use_container_width=True,
+            width="stretch",
             hide_index=True,
             column_config={
                 "score": st.column_config.NumberColumn(format="%.4f"),

@@ -139,13 +139,13 @@ if "retrieval" in metrics:
             for r in res.get("results", [])
         ])
         if not agg.empty:
-            st.dataframe(agg, use_container_width=True, hide_index=True)
+            st.dataframe(agg, width="stretch", hide_index=True)
         with st.expander("Per-query details"):
             for r in res.get("results", []):
                 st.markdown(f"**{r['retriever']}**")
                 st.dataframe(
                     pd.DataFrame(r["per_query"]),
-                    use_container_width=True,
+                    width="stretch",
                     hide_index=True,
                 )
 
@@ -158,7 +158,7 @@ if "latency" in metrics:
             if isinstance(stats, dict):
                 rows.append({"command": label, **stats})
         if rows:
-            st.dataframe(pd.DataFrame(rows), use_container_width=True, hide_index=True)
+            st.dataframe(pd.DataFrame(rows), width="stretch", hide_index=True)
 
 if "citation" in metrics:
     st.subheader("Citation verifiability")
@@ -168,7 +168,7 @@ if "citation" in metrics:
     with st.expander("Per-question detail"):
         st.dataframe(
             pd.DataFrame(cit.get("questions", [])),
-            use_container_width=True,
+            width="stretch",
             hide_index=True,
         )
 
@@ -185,7 +185,7 @@ if "audit" in metrics:
         with st.expander("Per-paper findings"):
             st.dataframe(
                 pd.DataFrame(aud.get("findings", [])),
-                use_container_width=True,
+                width="stretch",
                 hide_index=True,
             )
 
@@ -204,7 +204,7 @@ if "community" in metrics:
         st.metric("Mean rating", f"{c['mean_rating']:.2f} / 5")
     st.dataframe(
         pd.DataFrame(c.get("communities", [])),
-        use_container_width=True,
+        width="stretch",
         hide_index=True,
     )
 

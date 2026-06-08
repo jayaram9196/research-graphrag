@@ -74,10 +74,10 @@ if total > 0:
 
 st.subheader("Nodes")
 if node_rows:
-    st.dataframe(pd.DataFrame(node_rows), use_container_width=True, hide_index=True)
+    st.dataframe(pd.DataFrame(node_rows), width="stretch", hide_index=True)
 else:
     st.info("Graph is empty. Run the Seed page first.")
 
 st.subheader("Relationships")
 if rel_rows:
-    st.dataframe(pd.DataFrame(rel_rows), use_container_width=True, hide_index=True)
+    st.dataframe(pd.DataFrame(rel_rows), width="stretch", hide_index=True)
