@@ -1,0 +1,485 @@
+{
+  "timestamp": "2026-04-19T10:09:20+00:00",
+  "metrics": {
+    "retrieval": {
+      "gold_set_size": 5,
+      "top_k": 10,
+      "results": [
+        {
+          "retriever": "graph",
+          "top_k": 10,
+          "mean_recall": 0.4166666666666667,
+          "mean_precision": 0.1,
+          "per_query": [
+            {
+              "query": "foundational deep learning diffusion models for image generation",
+              "gold": [
+                "W3036167779",
+                "W4312933868",
+                "W4281485151"
+              ],
+              "retrieved": [
+                "W4312933868",
+                "W4226317937",
+                "W4386047807",
+                "W3162926177",
+                "W4294754026",
+                "W4308163867",
+                "W4386071957",
+                "W4387195417",
+                "W4386071831",
+                "W4360884927"
+              ],
+              "hits": [
+                "W4312933868"
+              ],
+              "recall": 0.3333333333333333,
+              "precision": 0.1
+            },
+            {
+              "query": "text-to-image diffusion models",
+              "gold": [
+                "W4281485151",
+                "W4312933868",
+                "W4390873054",
+                "W4393148714"
+              ],
+              "retrieved": [
+                "W4385270985",
+                "W4386076532",
+                "W4226125322",
+                "W4385801729",
+                "W4281485151",
+                "W4387195417",
+                "W4294754026",
+                "W4386072096",
+                "W4383472654",
+                "W4320831569"
+              ],
+              "hits": [
+                "W4281485151"
+              ],
+              "recall": 0.25,
+              "precision": 0.1
+            },
+            {
+              "query": "classifier-free guidance diffusion",
+              "gold": [
+                "W4386057777",
+                "W4312933868"
+              ],
+              "retrieved": [
+                "W4385801729",
+                "W4386071831",
+                "W4390873752",
+                "W4320831569",
+                "W4386057777",
+                "W4360884927",
+                "W4390873054",
+                "W4298186886",
+                "W3162926177",
+                "W4386075859"
+              ],
+              "hits": [
+                "W4386057777"
+              ],
+              "recall": 0.5,
+              "precision": 0.1
+            },
+            {
+              "query": "video generation with diffusion",
+              "gold": [
+                "W4390872556",
+                "W4390873135"
+              ],
+              "retrieved": [
+                "W4386071957",
+                "W4303440777",
+                "W4390873135",
+                "W4390872556",
+                "W4390874580",
+                "W4226317937",
+                "W4312933868",
+                "W4386076617",
+                "W4294754026",
+                "W3162926177"
+              ],
+              "hits": [
+                "W4390873135",
+                "W4390872556"
+              ],
+              "recall": 1.0,
+              "precision": 0.2
+            },
+            {
+              "query": "controllable image generation diffusion",
+              "gold": [
+                "W4390873054",
+                "W4393148714",
+                "W3212516020"
+              ],
+              "retrieved": [
+                "W4386076617",
+                "W4308163867",
+                "W4226317937",
+                "W4312933868",
+                "W3162926177",
+                "W4386071831",
+                "W4360884927",
+                "W3177150392",
+                "W4385801729",
+                "W4386071957"
+              ],
+              "hits": [],
+              "recall": 0.0,
+              "precision": 0.0
+            }
+          ]
+        },
+        {
+          "retriever": "vector",
+          "top_k": 10,
+          "mean_recall": 0.4166666666666667,
+          "mean_precision": 0.1,
+          "per_query": [
+            {
+              "query": "foundational deep learning diffusion models for image generation",
+              "gold": [
+                "W3036167779",
+                "W4312933868",
+                "W4281485151"
+              ],
+              "retrieved": [
+                "W4312933868",
+                "W4226317937",
+                "W4386047807",
+                "W3162926177",
+                "W4294754026",
+                "W4308163867",
+                "W4386071957",
+                "W4387195417",
+                "W4386071831",
+                "W4360884927"
+              ],
+              "hits": [
+                "W4312933868"
+              ],
+              "recall": 0.3333333333333333,
+              "precision": 0.1
+            },
+            {
+              "query": "text-to-image diffusion models",
+              "gold": [
+                "W4281485151",
+                "W4312933868",
+                "W4390873054",
+                "W4393148714"
+              ],
+              "retrieved": [
+                "W4385270985",
+                "W4386076532",
+                "W4226125322",
+                "W4385801729",
+                "W4281485151",
+                "W4387195417",
+                "W4294754026",
+                "W4386072096",
+                "W4383472654",
+                "W4320831569"
+              ],
+              "hits": [
+                "W4281485151"
+              ],
+              "recall": 0.25,
+              "precision": 0.1
+            },
+            {
+              "query": "classifier-free guidance diffusion",
+              "gold": [
+                "W4386057777",
+                "W4312933868"
+              ],
+              "retrieved": [
+                "W4385801729",
+                "W4386071831",
+                "W4390873752",
+                "W4320831569",
+                "W4386057777",
+                "W4360884927",
+                "W4390873054",
+                "W4298186886",
+                "W3162926177",
+                "W4386075859"
+              ],
+              "hits": [
+                "W4386057777"
+              ],
+              "recall": 0.5,
+              "precision": 0.1
+            },
+            {
+              "query": "video generation with diffusion",
+              "gold": [
+                "W4390872556",
+                "W4390873135"
+              ],
+              "retrieved": [
+                "W4386071957",
+                "W4303440777",
+                "W4390873135",
+                "W4390872556",
+                "W4390874580",
+                "W4226317937",
+                "W4312933868",
+                "W4386076617",
+                "W4294754026",
+                "W3162926177"
+              ],
+              "hits": [
+                "W4390873135",
+                "W4390872556"
+              ],
+              "recall": 1.0,
+              "precision": 0.2
+            },
+            {
+              "query": "controllable image generation diffusion",
+              "gold": [
+                "W4390873054",
+                "W4393148714",
+                "W3212516020"
+              ],
+              "retrieved": [
+                "W4386076617",
+                "W4308163867",
+                "W4226317937",
+                "W4312933868",
+                "W3162926177",
+                "W4386071831",
+                "W4360884927",
+                "W3177150392",
+                "W4385801729",
+                "W4386071957"
+              ],
+              "hits": [],
+              "recall": 0.0,
+              "precision": 0.0
+            }
+          ]
+        },
+        {
+          "retriever": "hybrid",
+          "top_k": 10,
+          "mean_recall": 0.55,
+          "mean_precision": 0.14,
+          "per_query": [
+            {
+              "query": "foundational deep learning diffusion models for image generation",
+              "gold": [
+                "W3036167779",
+                "W4312933868",
+                "W4281485151"
+              ],
+              "retrieved": [
+                "W4226317937",
+                "W4393148714",
+                "W4312933868",
+                "W4386047807",
+                "W4281485151",
+                "W3162926177",
+                "W4294754026",
+                "W4308163867",
+                "W4386071957",
+                "W4387195417"
+              ],
+              "hits": [
+                "W4312933868",
+                "W4281485151"
+              ],
+              "recall": 0.6666666666666666,
+              "precision": 0.2
+            },
+            {
+              "query": "text-to-image diffusion models",
+              "gold": [
+                "W4281485151",
+                "W4312933868",
+                "W4390873054",
+                "W4393148714"
+              ],
+              "retrieved": [
+                "W4281485151",
+                "W4385270985",
+                "W4386076532",
+                "W4226125322",
+                "W4385801729",
+                "W4387195417",
+                "W4294754026",
+                "W4386072096",
+                "W4383472654",
+                "W4320831569"
+              ],
+              "hits": [
+                "W4281485151"
+              ],
+              "recall": 0.25,
+              "precision": 0.1
+            },
+            {
+              "query": "classifier-free guidance diffusion",
+              "gold": [
+                "W4386057777",
+                "W4312933868"
+              ],
+              "retrieved": [
+                "W4385801729",
+                "W4386071831",
+                "W4226125322",
+                "W4390873752",
+                "W4320831569",
+                "W4386057777",
+                "W4360884927",
+                "W4390873054",
+                "W4298186886",
+                "W3162926177"
+              ],
+              "hits": [
+                "W4386057777"
+              ],
+              "recall": 0.5,
+              "precision": 0.1
+            },
+            {
+              "query": "video generation with diffusion",
+              "gold": [
+                "W4390872556",
+                "W4390873135"
+              ],
+              "retrieved": [
+                "W4303440777",
+                "W4386071957",
+                "W4390873135",
+                "W4390872556",
+                "W4390874580",
+                "W4312933868",
+                "W4226317937",
+                "W4386076617",
+                "W4294754026",
+                "W3162926177"
+              ],
+              "hits": [
+                "W4390873135",
+                "W4390872556"
+              ],
+              "recall": 1.0,
+              "precision": 0.2
+            },
+            {
+              "query": "controllable image generation diffusion",
+              "gold": [
+                "W4390873054",
+                "W4393148714",
+                "W3212516020"
+              ],
+              "retrieved": [
+                "W4393148714",
+                "W4386076617",
+                "W4308163867",
+                "W4226317937",
+                "W4312933868",
+                "W4386083141",
+                "W3162926177",
+                "W4386071831",
+                "W4360884927",
+                "W3177150392"
+              ],
+              "hits": [
+                "W4393148714"
+              ],
+              "recall": 0.3333333333333333,
+              "precision": 0.1
+            }
+          ]
+        }
+      ]
+    },
+    "citation": {
+      "questions": [
+        {
+          "question": "What are the foundational deep learning diffusion models for image generation?",
+          "inline_cited_ids": [],
+          "inline_in_graph": [],
+          "inline_in_sources": [],
+          "source_ids": [
+            "W4386047807",
+            "W4312933868",
+            "W4226317937",
+            "W4294754026",
+            "W4387195417",
+            "W3162926177"
+          ],
+          "sources_in_graph": [
+            "W4386047807",
+            "W4312933868",
+            "W4226317937",
+            "W4294754026",
+            "W4387195417",
+            "W3162926177"
+          ]
+        },
+        {
+          "question": "What is classifier-free guidance and why does it matter?",
+          "inline_cited_ids": [],
+          "inline_in_graph": [],
+          "inline_in_sources": [],
+          "source_ids": [
+            "W4385801729",
+            "W4386071831",
+            "W4386071613",
+            "W4393148714",
+            "W4386083141",
+            "W4386057777"
+          ],
+          "sources_in_graph": [
+            "W4385801729",
+            "W4386071831",
+            "W4386071613",
+            "W4393148714",
+            "W4386083141",
+            "W4386057777"
+          ]
+        },
+        {
+          "question": "Trace the evolution from DDPM to Stable Diffusion.",
+          "inline_cited_ids": [],
+          "inline_in_graph": [],
+          "inline_in_sources": [],
+          "source_ids": [
+            "W2129460014",
+            "W2016533177",
+            "W2056111576",
+            "W2037486322",
+            "W2059473268",
+            "W2032417357"
+          ],
+          "sources_in_graph": [
+            "W2129460014",
+            "W2016533177",
+            "W2056111576",
+            "W2037486322",
+            "W2059473268",
+            "W2032417357"
+          ]
+        }
+      ],
+      "totals": {
+        "ids_inline_in_answers": 0,
+        "inline_verifiability_rate": null,
+        "inline_match_sources_rate": null,
+        "total_source_ids": 18,
+        "sources_verifiability_rate": 1.0,
+        "note": "inline_* rates are None if the LLM doesn't write W-IDs in prose (default behavior \u2014 it cites by title/author). sources_verifiability_rate reflects the IDs our retriever supplies."
+      }
+    }
+  }
+}

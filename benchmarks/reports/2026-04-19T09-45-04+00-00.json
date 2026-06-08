@@ -1,0 +1,657 @@
+{
+  "timestamp": "2026-04-19T09:45:04+00:00",
+  "metrics": {
+    "retrieval": {
+      "gold_set_size": 5,
+      "top_k": 10,
+      "results": [
+        {
+          "retriever": "graph",
+          "top_k": 10,
+          "mean_recall": 0.4166666666666667,
+          "mean_precision": 0.1,
+          "per_query": [
+            {
+              "query": "foundational deep learning diffusion models for image generation",
+              "gold": [
+                "W3036167779",
+                "W4312933868",
+                "W4281485151"
+              ],
+              "retrieved": [
+                "W4312933868",
+                "W4226317937",
+                "W4386047807",
+                "W3162926177",
+                "W4294754026",
+                "W4308163867",
+                "W4386071957",
+                "W4387195417",
+                "W4386071831",
+                "W4360884927"
+              ],
+              "hits": [
+                "W4312933868"
+              ],
+              "recall": 0.3333333333333333,
+              "precision": 0.1
+            },
+            {
+              "query": "text-to-image diffusion models",
+              "gold": [
+                "W4281485151",
+                "W4312933868",
+                "W4390873054",
+                "W4393148714"
+              ],
+              "retrieved": [
+                "W4385270985",
+                "W4386076532",
+                "W4226125322",
+                "W4385801729",
+                "W4281485151",
+                "W4387195417",
+                "W4294754026",
+                "W4386072096",
+                "W4383472654",
+                "W4320831569"
+              ],
+              "hits": [
+                "W4281485151"
+              ],
+              "recall": 0.25,
+              "precision": 0.1
+            },
+            {
+              "query": "classifier-free guidance diffusion",
+              "gold": [
+                "W4386057777",
+                "W4312933868"
+              ],
+              "retrieved": [
+                "W4385801729",
+                "W4386071831",
+                "W4390873752",
+                "W4320831569",
+                "W4386057777",
+                "W4360884927",
+                "W4390873054",
+                "W4298186886",
+                "W3162926177",
+                "W4386075859"
+              ],
+              "hits": [
+                "W4386057777"
+              ],
+              "recall": 0.5,
+              "precision": 0.1
+            },
+            {
+              "query": "video generation with diffusion",
+              "gold": [
+                "W4390872556",
+                "W4390873135"
+              ],
+              "retrieved": [
+                "W4386071957",
+                "W4303440777",
+                "W4390873135",
+                "W4390872556",
+                "W4390874580",
+                "W4226317937",
+                "W4312933868",
+                "W4386076617",
+                "W4294754026",
+                "W3162926177"
+              ],
+              "hits": [
+                "W4390873135",
+                "W4390872556"
+              ],
+              "recall": 1.0,
+              "precision": 0.2
+            },
+            {
+              "query": "controllable image generation diffusion",
+              "gold": [
+                "W4390873054",
+                "W4393148714",
+                "W3212516020"
+              ],
+              "retrieved": [
+                "W4386076617",
+                "W4308163867",
+                "W4226317937",
+                "W4312933868",
+                "W3162926177",
+                "W4386071831",
+                "W4360884927",
+                "W3177150392",
+                "W4385801729",
+                "W4386071957"
+              ],
+              "hits": [],
+              "recall": 0.0,
+              "precision": 0.0
+            }
+          ]
+        },
+        {
+          "retriever": "vector",
+          "top_k": 10,
+          "mean_recall": 0.0,
+          "mean_precision": 0.0,
+          "per_query": [
+            {
+              "query": "foundational deep learning diffusion models for image generation",
+              "gold": [
+                "W3036167779",
+                "W4312933868",
+                "W4281485151"
+              ],
+              "retrieved": [],
+              "hits": [],
+              "recall": 0.0,
+              "precision": 0.0
+            },
+            {
+              "query": "text-to-image diffusion models",
+              "gold": [
+                "W4281485151",
+                "W4312933868",
+                "W4390873054",
+                "W4393148714"
+              ],
+              "retrieved": [],
+              "hits": [],
+              "recall": 0.0,
+              "precision": 0.0
+            },
+            {
+              "query": "classifier-free guidance diffusion",
+              "gold": [
+                "W4386057777",
+                "W4312933868"
+              ],
+              "retrieved": [],
+              "hits": [],
+              "recall": 0.0,
+              "precision": 0.0
+            },
+            {
+              "query": "video generation with diffusion",
+              "gold": [
+                "W4390872556",
+                "W4390873135"
+              ],
+              "retrieved": [],
+              "hits": [],
+              "recall": 0.0,
+              "precision": 0.0
+            },
+            {
+              "query": "controllable image generation diffusion",
+              "gold": [
+                "W4390873054",
+                "W4393148714",
+                "W3212516020"
+              ],
+              "retrieved": [],
+              "hits": [],
+              "recall": 0.0,
+              "precision": 0.0
+            }
+          ]
+        },
+        {
+          "retriever": "hybrid",
+          "top_k": 10,
+          "mean_recall": 0.0,
+          "mean_precision": 0.0,
+          "per_query": [
+            {
+              "query": "foundational deep learning diffusion models for image generation",
+              "gold": [
+                "W3036167779",
+                "W4312933868",
+                "W4281485151"
+              ],
+              "retrieved": [],
+              "hits": [],
+              "recall": 0.0,
+              "precision": 0.0
+            },
+            {
+              "query": "text-to-image diffusion models",
+              "gold": [
+                "W4281485151",
+                "W4312933868",
+                "W4390873054",
+                "W4393148714"
+              ],
+              "retrieved": [],
+              "hits": [],
+              "recall": 0.0,
+              "precision": 0.0
+            },
+            {
+              "query": "classifier-free guidance diffusion",
+              "gold": [
+                "W4386057777",
+                "W4312933868"
+              ],
+              "retrieved": [],
+              "hits": [],
+              "recall": 0.0,
+              "precision": 0.0
+            },
+            {
+              "query": "video generation with diffusion",
+              "gold": [
+                "W4390872556",
+                "W4390873135"
+              ],
+              "retrieved": [],
+              "hits": [],
+              "recall": 0.0,
+              "precision": 0.0
+            },
+            {
+              "query": "controllable image generation diffusion",
+              "gold": [
+                "W4390873054",
+                "W4393148714",
+                "W3212516020"
+              ],
+              "retrieved": [],
+              "hits": [],
+              "recall": 0.0,
+              "precision": 0.0
+            }
+          ]
+        }
+      ]
+    },
+    "latency": {
+      "retrieve_graph": {
+        "n": 3,
+        "mean": 0.0476074333419092,
+        "p50": 0.04681090000667609,
+        "p95": 0.05140700002084486,
+        "min": 0.044604399998206645,
+        "max": 0.05140700002084486
+      },
+      "ask": {
+        "n": 3,
+        "mean": 8.28188993333606,
+        "p50": 7.677472000010312,
+        "p95": 9.985416899988195,
+        "min": 7.182780900009675,
+        "max": 9.985416899988195
+      },
+      "pagerank": {
+        "n": 3,
+        "mean": 0.6700046000090273,
+        "p50": 0.7793256000149995,
+        "p95": 0.8087081999983639,
+        "min": 0.4219800000137184,
+        "max": 0.8087081999983639
+      }
+    },
+    "citation": {
+      "questions": [
+        {
+          "question": "What are the foundational deep learning diffusion models for image generation?",
+          "answer_ids": [],
+          "in_graph": [],
+          "in_graph_and_titled": [],
+          "also_in_sources": []
+        },
+        {
+          "question": "What is classifier-free guidance and why does it matter?",
+          "answer_ids": [],
+          "in_graph": [],
+          "in_graph_and_titled": [],
+          "also_in_sources": []
+        },
+        {
+          "question": "Trace the evolution from DDPM to Stable Diffusion.",
+          "answer_ids": [],
+          "in_graph": [],
+          "in_graph_and_titled": [],
+          "also_in_sources": []
+        }
+      ],
+      "totals": {
+        "ids_in_answers": 0,
+        "ids_in_graph": 0,
+        "ids_in_graph_and_titled": 0,
+        "ids_also_in_sources": 0,
+        "verifiability_rate": 0.0,
+        "grounded_in_sources_rate": 0.0
+      }
+    },
+    "audit": {
+      "sample_size": 10,
+      "correctness_rate": 1.0,
+      "title_match_rate": 1.0,
+      "year_match_rate": 1.0,
+      "findings": [
+        {
+          "id": "W2151406063",
+          "title_match": true,
+          "year_match": true,
+          "our_citations": 240,
+          "live_citations": 240,
+          "citation_drift": 0,
+          "citation_close": true,
+          "ok": true
+        },
+        {
+          "id": "W2092555266",
+          "title_match": true,
+          "year_match": true,
+          "our_citations": 285,
+          "live_citations": 285,
+          "citation_drift": 0,
+          "citation_close": true,
+          "ok": true
+        },
+        {
+          "id": "W4312388283",
+          "title_match": true,
+          "year_match": true,
+          "our_citations": 587,
+          "live_citations": 587,
+          "citation_drift": 0,
+          "citation_close": true,
+          "ok": true
+        },
+        {
+          "id": "W2332905493",
+          "title_match": true,
+          "year_match": true,
+          "our_citations": 781,
+          "live_citations": 781,
+          "citation_drift": 0,
+          "citation_close": true,
+          "ok": true
+        },
+        {
+          "id": "W3175528029",
+          "title_match": true,
+          "year_match": true,
+          "our_citations": 454,
+          "live_citations": 454,
+          "citation_drift": 0,
+          "citation_close": true,
+          "ok": true
+        },
+        {
+          "id": "W4390872297",
+          "title_match": true,
+          "year_match": true,
+          "our_citations": 1180,
+          "live_citations": 1180,
+          "citation_drift": 0,
+          "citation_close": true,
+          "ok": true
+        },
+        {
+          "id": "W2087582584",
+          "title_match": true,
+          "year_match": true,
+          "our_citations": 668,
+          "live_citations": 668,
+          "citation_drift": 0,
+          "citation_close": true,
+          "ok": true
+        },
+        {
+          "id": "W4360884927",
+          "title_match": true,
+          "year_match": true,
+          "our_citations": 1512,
+          "live_citations": 1514,
+          "citation_drift": 2,
+          "citation_close": true,
+          "ok": true
+        },
+        {
+          "id": "W4386057777",
+          "title_match": true,
+          "year_match": true,
+          "our_citations": 182,
+          "live_citations": 182,
+          "citation_drift": 0,
+          "citation_close": true,
+          "ok": true
+        },
+        {
+          "id": "W2049412008",
+          "title_match": true,
+          "year_match": true,
+          "our_citations": 220,
+          "live_citations": 220,
+          "citation_drift": 0,
+          "citation_close": true,
+          "ok": true
+        }
+      ]
+    },
+    "faithfulness": {
+      "error": "KeyError: '\"claims\"'"
+    },
+    "community": {
+      "communities": [
+        {
+          "communityId": 72,
+          "size": 37,
+          "sample_titles": [
+            "High-Resolution Image Synthesis with Latent Diffusion Models",
+            "Adding Conditional Control to Text-to-Image Diffusion Models",
+            "Diffusion Models Beat GANs on Image Synthesis",
+            "Photorealistic Text-to-Image Diffusion Models with Deep Language Understanding",
+            "Scalable Diffusion Models with Transformers"
+          ],
+          "rating": 5,
+          "label": "Diffusion-based Image Synthesis",
+          "reason": "All papers focus on the application of diffusion models to image synthesis, indicating a tightly coherent specialization within the field of machine learning."
+        },
+        {
+          "communityId": 1564,
+          "size": 28,
+          "sample_titles": [
+            "HDDM: Hierarchical Bayesian estimation of the Drift-Diffusion Model in Python",
+            "Psychological interpretation of the ex-Gaussian and shifted Wald parameters: A diffusion model analysis",
+            "Diffusion model analysis with MATLAB: A DMAT primer",
+            "Estimating parameters of the diffusion model: Approaches to dealing with contaminant reaction times and parameter variability",
+            "Fast-dm: A free program for efficient diffusion model analysis"
+          ],
+          "rating": 5,
+          "label": "Diffusion Model Analysis",
+          "reason": "All papers focus specifically on the diffusion model, a mathematical framework used to analyze decision-making processes, indicating a tightly coherent specialization."
+        },
+        {
+          "communityId": 4270,
+          "size": 17,
+          "sample_titles": [
+            "New Product Diffusion Models in Marketing: A Review and Directions for Research",
+            "Models for Innovation Diffusion",
+            "Maximum Likelihood Estimation for an Innovation Diffusion Model of New Product Acceptance",
+            "A Nonuniform Influence Innovation Diffusion Model of New Product Acceptance",
+            "Innovation Diffusion Models of New Product Acceptance."
+          ],
+          "rating": 5,
+          "label": "Innovation Diffusion Modeling",
+          "reason": "All papers focus on modeling the diffusion of innovations, specifically in the context of new product acceptance, indicating a tightly coherent specialization."
+        },
+        {
+          "communityId": 5394,
+          "size": 6,
+          "sample_titles": [
+            "A reaction-diffusion model of cancer invasion.",
+            "Asymptotic profiles of the steady states for an SIS epidemic reaction-diffusion model",
+            "The evolution of slow dispersal rates: a reaction diffusion model",
+            "Asymptotic speeds of spread and traveling waves for integral equations and delayed reaction\u2013diffusion models",
+            "A Nonlocal and Time-Delayed Reaction-Diffusion Model of Dengue Transmission"
+          ],
+          "rating": 4,
+          "label": "Reaction-Diffusion Modeling in Epidemiology and Ecology",
+          "reason": "The papers all utilize reaction-diffusion models to study various phenomena in epidemiology and ecology, such as cancer invasion, disease transmission, and species dispersal, indicating a coherent subfield."
+        },
+        {
+          "communityId": 2206,
+          "size": 5,
+          "sample_titles": [
+            "A Prospective and Retrospective Look at the Diffusion Model",
+            "Influential Nodes in a Diffusion Model for Social Networks",
+            "Network models of the diffusion of innovations",
+            "A Neural Influence Diffusion Model for Social Recommendation",
+            "Beyond Adoption: Development and Application of a Use-Diffusion Model"
+          ],
+          "rating": 4,
+          "label": "Diffusion Models",
+          "reason": "The papers all focus on diffusion models, specifically their application to social networks, innovations, and influence, indicating a coherent subfield of research."
+        }
+      ],
+      "mean_rating": 4.6
+    },
+    "e2e": {
+      "per_question": [
+        {
+          "question": "Which 5 papers should I read to understand diffusion models?",
+          "answer": "To understand diffusion models, I recommend reading the following five papers:\n\n1. \"A Prospective and Retrospective Look at the Diffusion Model\" (2004) by Everett M. Rogers, which provides an overview of the diffusion model and its evolution.\n2. \"A Meta-Analysis of Applications of Diffusion Models\" (1990) by Fareena Sultan, John U. Farley, and Donald R. Lehmann, which analyzes various applications of diffusion models.\n3. \"Assessing cognitive processes with diffusion model analyses: a tutorial based on fast-dm-30\" (2015) by Andreas Vo\u00df, Jochen Vo\u00df, and Veronika Lerche, which provides a tutorial on using diffusion models to analyze cognitive processes.\n4. \"Individual differences and fitting methods for the two-choice diffusion model of decision making\" (2015) by Roger Ratcliff and Russ Childers, which explores the use of diffusion models in decision-making.\n5. \"Connectionist and diffusion models of reaction time\" (1999) by Roger Ratcliff, Trisha Van Zandt, and Gail McKoon, which compares diffusion models with connectionist models in the context of reaction time tasks.\n\nThese papers cover a range of topics, from the basics of diffusion models to their applications in cognitive science and decision-making, and will provide a solid foundation for understanding diffusion models.",
+          "sources": [
+            "W2129460014",
+            "W2088871931",
+            "W2059473268",
+            "W2161553018",
+            "W2028909370",
+            "W4390872297",
+            "W1975928962",
+            "W1990326334"
+          ],
+          "scores": {
+            "relevance": 5,
+            "specificity": 5,
+            "grounding": 5,
+            "usefulness": 5
+          },
+          "notes": "The answer provides a comprehensive list of relevant papers with specific authors and publication years, making it a highly useful starting point for understanding diffusion models."
+        },
+        {
+          "question": "Trace the evolution of attention mechanisms from 2015 to 2020.",
+          "answer": "The provided context does not contain information about the evolution of attention mechanisms from 2015 to 2020. The context appears to be a collection of research papers related to diffusion models, decision-making, and psychology, with publication dates ranging from 1999 to 2013. Therefore, it is not possible to answer the question based on the provided context.",
+          "sources": [
+            "W2022557219",
+            "W1990326334",
+            "W3167752473",
+            "W2060715457",
+            "W2014139245",
+            "W1724086789",
+            "W2067894784",
+            "W2115971452"
+          ],
+          "scores": {
+            "relevance": 1,
+            "specificity": 1,
+            "grounding": 1,
+            "usefulness": 1
+          },
+          "notes": "The answer does not address the question about the evolution of attention mechanisms from 2015 to 2020, as it states the provided context is unrelated to the topic."
+        },
+        {
+          "question": "What are the most influential papers in multi-agent reinforcement learning?",
+          "answer": "The provided context does not contain information about multi-agent reinforcement learning. The context appears to be about diffusion models, particularly in the field of psychology and cognitive science. \n\nIf you're looking for information on the most influential papers in diffusion models, I can provide some insights based on the context. The papers with the highest citation counts are:\n\n1. \"A Prospective and Retrospective Look at the Diffusion Model\" (2004) with 766 citations\n2. \"HDDM: Hierarchical Bayesian estimation of the Drift-Diffusion Model in Python\" (2013) with 1104 citations\n3. \"Connectionist and diffusion models of reaction time.\" (1999) with 589 citations\n\nThese papers seem to be highly influential in the field of diffusion models, but please note that the context does not provide information about multi-agent reinforcement learning.",
+          "sources": [
+            "W2132130600",
+            "W2067894784",
+            "W1990326334",
+            "W2000444105",
+            "W3167752473",
+            "W2129460014",
+            "W1975928962",
+            "W2115971452"
+          ],
+          "scores": {
+            "relevance": 1,
+            "specificity": 4,
+            "grounding": 4,
+            "usefulness": 1
+          },
+          "notes": "The answer is not relevant to the question about multi-agent reinforcement learning, but it provides specific and well-grounded information about diffusion models."
+        },
+        {
+          "question": "Which research communities exist within NLP?",
+          "answer": "Based on the provided context, the research communities within NLP (Natural Language Processing) that exist are:\n\n1. Text-to-image diffusion models\n2. Lexical decision tasks\n3. Open-vocabulary panoptic segmentation\n4. Text-image diffusion models\n5. Language understanding\n\nThese communities are evident from the concepts and titles of the research papers, such as \"Attend-and-Excite: Attention-Based Semantic Guidance for Text-to-Image Diffusion Models\", \"A Diffusion Model Account of the Lexical Decision Task\", and \"Open-Vocabulary Panoptic Segmentation with Text-to-Image Diffusion Models\".",
+          "sources": [
+            "W1505037116",
+            "W2020220682",
+            "W4391468387",
+            "W4385270985",
+            "W2028909370",
+            "W4386075819",
+            "W2088871931",
+            "W2112365965"
+          ],
+          "scores": {
+            "relevance": 4,
+            "specificity": 4,
+            "grounding": 3,
+            "usefulness": 3
+          },
+          "notes": "The answer provides some relevant research areas within NLP and cites specific paper titles, but the connection between the cited sources and the claimed research communities is not clearly established."
+        },
+        {
+          "question": "Find underexplored gaps between computer vision and causal inference.",
+          "answer": "To find underexplored gaps between computer vision and causal inference, we need to analyze the existing research and identify areas where these two fields intersect. \n\nFrom the provided context, we can see that there are several papers related to diffusion models, which are a type of deep generative model used in computer vision. However, none of these papers explicitly mention causal inference.\n\nCausal inference is a field of study that focuses on understanding cause-and-effect relationships between variables. In computer vision, causal inference can be applied to understand the relationships between images, objects, and scenes.\n\nSome potential underexplored gaps between computer vision and causal inference include:\n\n1. Causal representation learning: How can we learn representations of images that capture causal relationships between objects and scenes?\n2. Causal image generation: How can we generate images that reflect causal relationships between objects and scenes?\n3. Causal scene understanding: How can we use causal inference to understand the relationships between objects and scenes in images?\n4. Causal video analysis: How can we use causal inference to analyze videos and understand the causal relationships between events?\n\nThese are just a few examples of potential gaps between computer vision and causal inference. Further research is needed to explore these areas and develop new methods and applications that combine these two fields.",
+          "sources": [
+            "W2140222892",
+            "W2067894784",
+            "W4385270985",
+            "W3167752473",
+            "W1990326334",
+            "W4387195417",
+            "W4386071831",
+            "W2088413985"
+          ],
+          "scores": {
+            "relevance": 5,
+            "specificity": 2,
+            "grounding": 2,
+            "usefulness": 4
+          },
+          "notes": "The answer provides relevant and useful potential research gaps, but lacks specific references to authors or papers and does not demonstrate strong grounding in the cited sources."
+        },
+        {
+          "question": "Who are the bridge authors between theoretical and applied ML?",
+          "answer": "Unfortunately, the provided context does not contain information about bridge authors between theoretical and applied ML. The context appears to be related to diffusion models, innovation diffusion, and marketing, but it does not mention authors who bridge the gap between theoretical and applied machine learning.",
+          "sources": [
+            "W2038950582",
+            "W2106616952",
+            "W2088871931",
+            "W2088413985",
+            "W4243905823",
+            "W4237325787",
+            "W4391468387",
+            "W4230562141"
+          ],
+          "scores": {
+            "relevance": 1,
+            "specificity": 1,
+            "grounding": 1,
+            "usefulness": 1
+          },
+          "notes": "The answer does not provide any relevant information about bridge authors between theoretical and applied ML, despite citing several sources."
+        }
+      ],
+      "averages": {
+        "relevance": 2.8333333333333335,
+        "specificity": 2.8333333333333335,
+        "grounding": 2.6666666666666665,
+        "usefulness": 2.5
+      }
+    }
+  }
+}

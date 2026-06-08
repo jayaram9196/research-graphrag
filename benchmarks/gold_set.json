@@ -1,0 +1,29 @@
+{
+  "description": "Gold set for retrieval recall@K evaluation. Each query maps to a list of OpenAlex IDs that are truly relevant. Customize for your seeded corpus.",
+  "queries": {
+    "foundational deep learning diffusion models for image generation": [
+      "W3036167779",
+      "W4312933868",
+      "W4281485151"
+    ],
+    "text-to-image diffusion models": [
+      "W4281485151",
+      "W4312933868",
+      "W4390873054",
+      "W4393148714"
+    ],
+    "classifier-free guidance diffusion": [
+      "W4386057777",
+      "W4312933868"
+    ],
+    "video generation with diffusion": [
+      "W4390872556",
+      "W4390873135"
+    ],
+    "controllable image generation diffusion": [
+      "W4390873054",
+      "W4393148714",
+      "W3212516020"
+    ]
+  }
+}
